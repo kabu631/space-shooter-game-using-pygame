@@ -1,25 +1,21 @@
 # Space Shooter (Pygame)
 
-A fast-paced top-down space shooter built with Python + Pygame.
+A fast-paced top-down space shooter built with **Python** + **Pygame**.
 
 ## Quick Start
 
-### 1) Requirements
+### Requirements
 
-- Python 3.x
-- `pygame`
+- Python 3
+- Pygame
 
-### 2) Install dependencies
-
-If you already have a virtual environment, activate it first.
+### Install
 
 ```bash
 pip install pygame
 ```
 
-### 3) Run the game
-
-From the project folder:
+### Run
 
 ```bash
 python space_shooter.py
@@ -27,36 +23,41 @@ python space_shooter.py
 
 ## Controls
 
-- **W / A / S / D**: Move ship
-- **Mouse**: Aim
-- **Left Mouse Click**: Shoot (when Auto-Fire is OFF)
-- **F**: Toggle Auto-Fire
-- **M**: Toggle sound
-- **ESC**: Pause (during gameplay)
-- **SPACE**: Start (from menu) / Restart (after game over)
+### Gameplay
 
-## Gameplay notes
+- `W` `A` `S` `D`: Move ship
+- Mouse: Aim
+- Left Mouse Click: Shoot (when Auto-Fire is OFF)
+- `F`: Toggle Auto-Fire
+- `M`: Toggle Sound
+- `ESC`: Pause / Resume
 
-- Defeat enemies to increase your score.
-- Power-ups can drop during gameplay (e.g., rapid fire, shield, health).
-- A boss appears after enough kills.
+### Menu / Game Over
+
+- `SPACE`: Start / Restart
+- `ESC`: Quit (from menu) / Back to menu (after game over)
+
+## What’s in the game
+
+- Waves of enemies (including shooter-type enemies)
+- Power-ups (Rapid Fire, Shield, Health)
+- Boss fights after enough kills
+- Procedural sound effects (toggle with `M`)
 
 ## Troubleshooting
 
-### No sound / audio errors
-
-- If you get an audio device error, try closing other apps using audio and run again.
-- You can toggle sound in-game with **M**.
-
 ### `ModuleNotFoundError: No module named 'pygame'`
-
-Install Pygame:
 
 ```bash
 pip install pygame
 ```
 
-## Other scripts in this folder
+### Sound issues
 
-- `snake.py`: A separate Snake game.
-- `space_shooter.py`: The Space Shooter game (main).
+- Try toggling sound in-game with `M`.
+- If your system has no audio device available, Pygame audio init may fail depending on configuration.
+
+## Other scripts
+
+- `space_shooter.py`: Space Shooter (main)
+- `snake.py`: Separate Snake game
