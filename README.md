@@ -43,9 +43,10 @@ A high-octane, arcade-style top-down shooter built with **Python** and **Pygame*
 - **Data**: Tracks lifetime statistics including total kills and bosses defeated using Python dataclasses.
 
 ## 🗺️ Roadmap
-- [ ] **Sprite Integration**: Replace vector shapes with the alien pixel art from `image_635a2a.png`.
+- [ ] **Sprite Integration**: Replace vector shapes with the alien pixel art.
 - [ ] **Weapon Upgrades**: Add different firing modes like spread-shot and laser beams.
 - [ ] **Leaderboard**: Implement a local file-based high score saving system.
+- [ ] **Battle Royale**: Will change the game environment as a battle royale 0f 8-10 players with better graphics, characters and weapons.
 
 ---
-*Developed with Pygame*
+*Developed with love, developed for fun*
